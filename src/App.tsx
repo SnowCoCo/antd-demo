@@ -1,5 +1,8 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.less';
+import {Button} from 'antd';
+
+import RefsAndDom from './components/RefsAndDom';
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <RefsAndDom></RefsAndDom>
+        <Button type="primary">Click Me !</Button>
       </header>
     </div>
   );
